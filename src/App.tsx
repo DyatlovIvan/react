@@ -20,7 +20,7 @@ function App() {
             <UncontrollOn newOn={newOn} setOn={setOn}/>
 
             {/*<UncontrollRating/>*/}
-            {/*<Rating value={newRating} setNewRating={setNewRating} />*/}
+            <Rating value={newRating} setNewRating={setNewRating} />
 
             {/*<UncontrolledAccordion title={'Menu'}/>*/}
             {/*<UncontrolledAccordion title={'Friends'}/>*/}
