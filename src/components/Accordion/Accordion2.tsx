@@ -1,7 +1,7 @@
 import { AccordionBody } from "./AccordionBody";
 import { AccordionTitle } from "./AccordionTitle";
 
-type AccordionType = {
+export type AccordionType = {
   title: string
   newCollapsed:boolean
   setNewCollapsed:(value:boolean) => void
