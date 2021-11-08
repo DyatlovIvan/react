@@ -1,4 +1,5 @@
 import { Star } from "./Star";
+import React from "react";
 
 export type ValueRatingType=0|1|2|3|4|5
 
@@ -7,7 +8,11 @@ type RatingType = {
     setNewRating:(value:ValueRatingType) => void
 }
 
-export function Rating(props:RatingType) {
+
+export const Rating = React.memo(RatingMemo)
+
+
+export function RatingMemo(props:RatingType) {
 
     return (
         <div>

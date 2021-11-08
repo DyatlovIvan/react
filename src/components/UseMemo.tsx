@@ -36,6 +36,6 @@ export const Example1 = () => {
 
 
 
-export const Example2 = () => {
+export const HelpsForReactMemo = () => {
 
 }

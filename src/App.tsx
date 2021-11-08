@@ -8,6 +8,7 @@ import {UncontrolledAccordion} from './components/Accordion/UncontrolledAccordio
 import {Rating, ValueRatingType} from "./components/Rating/Rating";
 import {UncontrollOn} from "./components/UncontrollOn";
 import {Example1} from "./components/UseMemo";
+import {ReactMemo} from "./components/ReactMemo";
 
 function App() {
   let [newRating,setNewRating] = useState<ValueRatingType>(0)
@@ -27,6 +28,7 @@ function App() {
             {/*<UncontrolledAccordion title={'Friends'}/>*/}
             <Accordion title = {'Menu'} newCollapsed ={newCollapsed} setNewCollapsed = {setNewCollapsed}/>
             {/*<Accordion title = {'Friends'} collapsed = {false}/>*/}
+            <ReactMemo/>
             <Example1/>
         </div>
     );
