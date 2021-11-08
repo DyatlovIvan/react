@@ -7,6 +7,7 @@ import {On} from './components/On';
 import {UncontrolledAccordion} from './components/Accordion/UncontrolledAccordion';
 import {Rating, ValueRatingType} from "./components/Rating/Rating";
 import {UncontrollOn} from "./components/UncontrollOn";
+import {Example1} from "./components/UseMemo";
 
 function App() {
   let [newRating,setNewRating] = useState<ValueRatingType>(0)
@@ -26,6 +27,7 @@ function App() {
             {/*<UncontrolledAccordion title={'Friends'}/>*/}
             <Accordion title = {'Menu'} newCollapsed ={newCollapsed} setNewCollapsed = {setNewCollapsed}/>
             {/*<Accordion title = {'Friends'} collapsed = {false}/>*/}
+            <Example1/>
         </div>
     );
 }
