@@ -1,13 +1,11 @@
 import React, {useState} from 'react';
-import logo from './logo.svg';
 import './App.css';
-import {UncontrollRating} from './components/Rating/UncontrollRating';
 import {Accordion} from './components/Accordion/Accordion2';
 import {On} from './components/On';
 import {UncontrolledAccordion} from './components/Accordion/UncontrolledAccordion';
 import {Rating, ValueRatingType} from "./components/Rating/Rating";
 import {UncontrollOn} from "./components/UncontrollOn";
-import {Example1} from "./components/UseMemo";
+import {Example1, HelpToReactMemo} from "./components/UseMemo";
 import {ReactMemo} from "./components/ReactMemo";
 
 function App() {
@@ -29,7 +27,9 @@ function App() {
             <Accordion title = {'Menu'} newCollapsed ={newCollapsed} setNewCollapsed = {setNewCollapsed}/>
             {/*<Accordion title = {'Friends'} collapsed = {false}/>*/}
             <ReactMemo/>
+
             <Example1/>
+            <HelpToReactMemo/>
         </div>
     );
 }
