@@ -7,6 +7,7 @@ import {Rating, ValueRatingType} from "./components/Rating/Rating";
 import {UncontrollOn} from "./components/UncontrollOn";
 import {Example1, HelpToReactMemo} from "./components/UseMemo";
 import {ReactMemo} from "./components/ReactMemo";
+import {Clock} from "./Clock/Clock";
 
 function App() {
   let [newRating,setNewRating] = useState<ValueRatingType>(0)
@@ -30,6 +31,7 @@ function App() {
 
             <Example1/>
             <HelpToReactMemo/>
+            <Clock/>
         </div>
     );
 }
