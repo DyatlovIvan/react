@@ -8,6 +8,8 @@ import {UncontrollOn} from "./components/UncontrollOn";
 import {Example1, HelpToReactMemo} from "./components/UseMemo";
 import {ReactMemo} from "./components/ReactMemo";
 import {Clock} from "./Clock/Clock";
+import {ResetEffectExample} from "./components/ResetEffectExample";
+import {UseEffect} from "./components/useEffect";
 
 function App() {
   let [newRating,setNewRating] = useState<ValueRatingType>(0)
@@ -32,6 +34,8 @@ function App() {
             <Example1/>
             <HelpToReactMemo/>
             <Clock/>
+            <ResetEffectExample/>
+            <UseEffect/>
         </div>
     );
 }
